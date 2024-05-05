@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+p{    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    
+}
+body{
+    background-image:url(joaninha-macho.webp);
+    background-size: 60%;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 600px;
+    border-radius: 5%;
+}
+@media (max-width: 500px){
+    img{
+        width: 350px;
+    }
+}
